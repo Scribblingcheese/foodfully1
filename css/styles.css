@@ -15,7 +15,6 @@ body {
 }
 
 
-
 p {
 	color: #777;
 }
@@ -89,6 +88,7 @@ h3, h4 {
 	outline: 0;
 	box-shadow: inset 0px 0px 0px 1px #30a5ff;
 }
+
 
 /*.navbar-header .navbar-brand {
 	color: #e74c3c;
@@ -518,6 +518,7 @@ a.bg-danger:hover {
 
 /*Navbar*/
 
+
 /*.navbar {
 	border: 0;
 	color: #e74c3c !important;
@@ -569,6 +570,13 @@ a.bg-danger:hover {
 	padding: 20px 15px 5px 15px;
 	border-bottom: 1px solid #eee;
 	margin-bottom: 20px;
+}
+
+.navbar-brand{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar-brand span{
+	color: #FFBF2C;
 }
 
 @media (min-width: 768px) {
