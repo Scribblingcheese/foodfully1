@@ -13,7 +13,9 @@ body {
 	font-family: "Roboto", sans-serif;
 
 }
-
+.nav-divider a:hover{
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8) !important;
+}
 
 p {
 	color: #777;
@@ -88,7 +90,10 @@ h3, h4 {
 	outline: 0;
 	box-shadow: inset 0px 0px 0px 1px #30a5ff;
 }
-
+.navbar-header .navbar-brand{
+	text-transform: none;
+	font-weight: 800;
+}
 
 /*.navbar-header .navbar-brand {
 	color: #e74c3c;
