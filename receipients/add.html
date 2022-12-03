@@ -17,10 +17,10 @@
     <title>FOOD FULLY</title>
     <style>
         ul.navbar-nav li a{
-            color: black  !important;
+            color: black!important;
         }
         ul.navbar-nav li a i{
-            color: black  !important;
+            color: black!important;
         }
         .navbar-brand{
             color: #1E232C !important;
@@ -67,8 +67,8 @@
                             <a class="nav-link nav-user-img" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="../assets/images/avatar.png" alt="" class="user-avatar-md rounded-circle"></a>
                             <div class="dropdown-menu dropdown-menu-right nav-user-dropdown" aria-labelledby="navbarDropdownMenuLink2">
                                 <div class="nav-user-info" style="background-color: rgb(255, 55, 0);">
-                                    <h5 class="mb-0 text-white nav-user-name">Suresh Thapa </h5>
-                                    <span class="status"></span><span class="ml-2">Recipient</span>
+                                    <h5 class="mb-0 text-white nav-user-name">Aamako Ghar </h5>
+                                    <span class="status"></span><span class="ml-2">Receipient</span>
                                 </div>
                                 <a class="dropdown-item" href="#"><i class="fas fa-user mr-2"></i>Account</a>
                                 <a class="dropdown-item" href="#"><i class="fas fa-cog mr-2"></i>Setting</a>
@@ -85,7 +85,7 @@
         <!-- ============================================================== -->
         <!-- left sidebar -->
         <!-- ============================================================== -->
-        <div class="nav-left-sidebar sidebar-dark" style="background-color: #facc4dda;">
+        <div class="nav-left-sidebar sidebar-dark" style="background-color:#facc4dda;">
             <div class="menu-list">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <a class="d-xl-none d-lg-none" href="#">Dashboard</a>
@@ -98,13 +98,13 @@
                                 <a href="index.html"><img class="logo-img" src="../assets/images/logo.png" alt="logo"></a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link" href="index.html" style="background-color: #b6991786;"><i class="fa fa-fw fa-tachometer-alt"></i>Dashboard <span class="badge badge-success">6</span></a>
+                                <a class="nav-link" href="index.html"><i class="fa fa-fw fa-tachometer-alt"></i>Dashboard <span class="badge badge-success">6</span></a>
                             </li>
                             <li class="nav-item ">
                                 <a class="nav-link" href="request.html"><i class="fa fa-fw fa-hand-holding-heart"></i>My Request <span class="badge badge-success">6</span></a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link" href="add.html"><i class="fa fa-fw fa-hands-helping"></i>Request Assistance <span class="badge badge-success">6</span></a>
+                                <a class="nav-link" href="add.html" style="background-color: #b6991786;"><i class="fa fa-fw fa-hands-helping"></i>Request Assistance <span class="badge badge-success">6</span></a>
                             </li>
                             <li class="nav-item ">
                                 <a class="nav-link" href="profile.html"><i class="fa fa-fw fa-user"></i>Profile <span class="badge badge-success">6</span></a>
@@ -122,17 +122,18 @@
         <!-- ============================================================== -->
         <div class="dashboard-wrapper">
             <div class="container-fluid  dashboard-content">
-                <!-- ============================================================== -->
-                <!-- pagehader  -->
+               <!-- ============================================================== -->
+                <!-- pageheader -->
                 <!-- ============================================================== -->
                 <div class="row">
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="page-header">
-                             <h2 class="pageheader-title"><i class="fa fa-fw fa-tachometer-alt"></i> Dashboard </h2><div class="page-breadcrumb">
+                             <h2 class="pageheader-title"><i class="fa fa-fw fa-hands-helping"></i> Add Requests </h2>
+                            <div class="page-breadcrumb">
                                 <nav aria-label="breadcrumb">
                                     <ol class="breadcrumb">
                                         <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Dashboard</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">Home</li>
+                                        <li class="breadcrumb-item active" aria-current="page">Requests</li>
                                     </ol>
                                 </nav>
                             </div>
@@ -140,110 +141,73 @@
                     </div>
                 </div>
                 <!-- ============================================================== -->
-                <!-- pagehader  -->
+                <!-- end pageheader -->
                 <!-- ============================================================== -->
-                
-                <div class="row">
-                    <!-- metric -->
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <!--
-                                     <h5 class="text-muted">Total Cash Received</h5>  
-                                <div class="metric-value d-inline-block">
-                                    <h1 class="mb-1 text-primary">Pph 10,000.00 </h1> 
-                                    
-                                </div>
-                            </div>
-                            <div id="sparkline-1"></div>
-                        </div>
-                    </div> 
-                                 -->
-                               
-                   
-                    <!-- /. metric -->
-                    <!-- metric -->
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div class="card">
-                            <div class="card-body">
-                                    <h5 class="text-muted">Total Food Received</h5>
-                                <div class="metric-value d-inline-block">
-                                    <h1 class="mb-1 text-primary">111 </h1>
-                                </div>
-                            </div>
-                            <div id="sparkline-2"></div>
-                        </div>
-                    </div>        
-                    <!-- /. metric -->
-                </div>
-                <!-- ============================================================== -->
-                <!-- revenue  -->
-                <!-- ============================================================== -->
-                <!-- 
+             
                     <div class="row">
-                    <div class="col-xl-12 col-lg-12 col-md-8 col-sm-12 col-12">
-                        <div class="card">
-                            <h5 class="card-header">Donation</h5>
-                            <div class="card-body">
-                                <canvas id="revenue" width="400" height="150"></canvas>
-                            </div>
-                            <div class="card-body border-top">
-                                <div class="row">
-                                    <div class="offset-xl-1 col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 p-3">
-                                        <h4> Today's Doanation: Php 2,800.30</h4>
-                                        <p>Suspendisse potenti. Done csit amet rutrum.
-                                        </p>
-                                    </div>
-                                    <div class="offset-xl-1 col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 p-3">
-                                        <h2 class="font-weight-normal mb-3"><span>Php 48,325</span>                                                    </h2>
-                                        <div class="mb-0 mt-3 legend-item">
-                                            <span class="fa-xs text-primary mr-1 legend-title "><i class="fa fa-fw fa-square-full"></i></span>
-                                            <span class="legend-text">Current Week</span></div>
-                                    </div>
-                                    <div class="offset-xl-1 col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 p-3">
-                                        <h2 class="font-weight-normal mb-3">
-
-                                                        <span>Php 59,567</span>
-                                                    </h2>
-                                        <div class="text-muted mb-0 mt-3 legend-item"> <span class="fa-xs text-secondary mr-1 legend-title"><i class="fa fa-fw fa-square-full"></i></span><span class="legend-text">Previous Week</span></div>
-                                    </div>
+                        <!-- ============================================================== -->
+                        <!-- valifation types -->
+                        <!-- ============================================================== -->
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="card">
+                                <h5 class="card-header">Request Information</h5>
+                                <div class="card-body">
+                                    <form id="validationform" data-parsley-validate="" novalidate="">
+                                        <div class="form-group row">
+                                            <label class="col-12 col-sm-3 col-form-label text-sm-right">Message</label>
+                                            <div class="col-12 col-sm-8 col-lg-6">
+                                                <textarea required="" class="form-control"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row text-right">
+                                            <div class="col col-sm-10 col-lg-9 offset-sm-1 offset-lg-0">
+                                                <button type="submit" class="btn btn-space btn-primary">Submit</button>
+                                                <button class="btn btn-space btn-secondary">Cancel</button>
+                                            </div>
+                                        </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>
+                        <!-- ============================================================== -->
+                        <!-- end valifation types -->
+                        <!-- ============================================================== -->
                     </div>
-                -->
-                
-                    <!-- ============================================================== -->
-                    <!-- end reveune  -->
-                    <!-- ============================================================== -->
-                    <!-- ============================================================== -->
-                   
-                </div>
+           
             </div>
         </div>
-        <!-- ============================================================== -->
-        <!-- end wrapper  -->
-        <!-- ============================================================== -->
     </div>
     <!-- ============================================================== -->
-    <!-- end main wrapper  -->
+    <!-- end main wrapper -->
     <!-- ============================================================== -->
     <!-- Optional JavaScript -->
-    <!-- jquery 3.3.1 js-->
     <script src="../assets/vendor/jquery/jquery-3.3.1.min.js"></script>
-    <!-- bootstrap bundle js-->
     <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
-    <!-- chartjs js-->
-    <script src="../assets/vendor/charts/charts-bundle/Chart.bundle.js"></script>
-    <script src="../assets/vendor/charts/charts-bundle/chartjs.js"></script>
-   
-    <!-- main js-->
+    <script src="../assets/vendor/parsley/parsley.js"></script>
     <script src="../assets/libs/js/main-js.js"></script>
-    <!-- sparkline js-->
-    <script src="../assets/vendor/charts/sparkline/jquery.sparkline.js"></script>
-    <script src="../assets/vendor/charts/sparkline/spark-js.js"></script>
-     <!-- dashboard sales js-->
-    <script src="../assets/libs/js/dashboard-sales.js"></script>
+    <script>
+    $('#form').parsley();
+    </script>
+    <script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function() {
+        'use strict';
+        window.addEventListener('load', function() {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function(form) {
+                form.addEventListener('submit', function(event) {
+                    if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        }, false);
+    })();
+    </script>
 </body>
  
 </html>
